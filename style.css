@@ -36,6 +36,7 @@
     position: relative;
     min-width: 10px;
     padding: 12px 2px;
+    z-index: 999;
 }
 
 .header-dropdown>nav>ul>li>ul {
@@ -222,4 +223,112 @@ a.footer-text {
 
 .slider-box img {
     width: 100%;
+}
+
+.notice-message {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notice-box {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.message-box {
+    width: 30%;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 305px;
+}
+
+.notice-part {
+    width: 100%;
+}
+
+.notice-img {
+    width: 25%;
+    overflow: hidden;
+}
+
+.notice-img img {
+    max-width: 100%;
+}
+
+
+notice-headline-date {
+    width: 70%;
+}
+
+.notice-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+.message-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+notice-headline-date a {
+    text-decoration: none;
+    color: black;
+}
+
+.notice-img img:hover {
+    transform: scale(1.5);
+}
+
+
+.notice-main {
+    border: 1px solid;
+    border-radius: 20px;
+    width: 68%;
+}
+
+.notice {
+    font-size: 15px;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.message-secratery,
+.message-persident {
+    width: 48%;
+    overflow: hidden;
+}
+
+.message-secratery img,
+.message-persident img {
+    max-width: 100%;
+}
+
+.message-secratery a,
+.message-persident a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.message {
+    font-size: 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.message-secratery img:hover,
+.message-persident img:hover {
+    transform: scale(1.5);
 }
