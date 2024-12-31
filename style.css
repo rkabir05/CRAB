@@ -186,6 +186,7 @@ a.footer-text {
     border-top: 1px solid;
     border-bottom: 1px solid;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .design h6 {
@@ -331,4 +332,104 @@ notice-headline-date a {
 .message-secratery img:hover,
 .message-persident img:hover {
     transform: scale(1.5);
+}
+
+.news-and-events-main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news-and-events-text {
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+.news-text {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-part {
+    width: 31%;
+}
+
+.news-part-img img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+.medis-and-institute-img,
+.news-part-img {
+    overflow: hidden;
+}
+
+.medis-and-institute-img img:hover,
+.news-part-img img:hover {
+    transform: scale(1.5);
+}
+
+.news-part a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.news-part h2 {
+    margin-bottom: 10px;
+}
+
+.media-and-institute-box {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.medis-and-institute-text {
+    font-size: 20px;
+    border-bottom: 1px solid;
+    padding: 10px;
+
+}
+
+.medis-and-institute-img-box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.medis-and-institute-img img {
+    max-width: 100%;
+}
+
+.medis-and-institute-img {
+    width: 22%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer>nav>ul>li {
+    margin-top: 5px;
+}
+
+.footer>nav>ul>li {
+    margin-top: 5px;
+}
+
+.footer-address h3 {
+    margin-bottom: 10px;
+}
+
+.news-and-events-text h2 {
+    font-size: 30px;
 }
