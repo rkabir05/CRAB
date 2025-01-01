@@ -68,6 +68,7 @@ ul.sub-menu>li>a {
 ul.sub-menu {
     list-style: none;
     display: none;
+    background: white;
 }
 
 ul.sub-menu li {
@@ -93,7 +94,6 @@ ul.sub-menu li {
 
 
 
-
 .crab-three-box {
     width: 1200px;
     height: auto;
@@ -101,7 +101,7 @@ ul.sub-menu li {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .crab-main {
@@ -432,4 +432,145 @@ notice-headline-date a {
 
 .news-and-events-text h2 {
     font-size: 30px;
+}
+
+.background-box {
+    width: auto;
+    margin: auto;
+    height: auto;
+    background: url(images/breadcrumb-bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.background-text {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-btn {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 55px;
+}
+
+.home-btn a {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 13px;
+    padding: 5px 12px;
+    background: red;
+    font-weight: bold;
+    color: wheat;
+    font-size: 15px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.glance-logo {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header-background,
+.footer-background {
+    background: #f3f2f0;
+}
+
+
+
+.footer-socialmedia,
+.glance-text {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+
+.glance-text p,
+.glance-text h2 {
+    margin-bottom: 25px;
+}
+
+.glance-text p {
+    margin-bottom: 15px;
+}
+
+h2 {}
+
+.constitution {
+    width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.constitution-bangla {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+}
+
+.constitution-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.constitution-text h3 {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.constitution-text p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.constitution-text {
+    opacity: 71%;
+}
+
+.registration-certificate-box,
+.registration-box {
+    width: 800px;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+
+.registration-certificate img,
+.registrations img {
+    max-width: 100%;
+}
+
+.registration-certificate {
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
