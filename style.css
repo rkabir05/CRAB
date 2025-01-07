@@ -574,3 +574,93 @@ h2 {}
     margin-left: auto;
     margin-right: auto;
 }
+
+.executive-committee-main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.former-committee {
+    width: 20%;
+    border: .5px solid black;
+    border-radius: 10px;
+    height: 1034px;
+}
+
+.executive-committee-text {
+    width: 78%;
+    border: .5px solid black;
+    border-radius: 10px;
+}
+
+.former-ec>nav>ul {
+    list-style: none;
+}
+
+.former-ec>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.former-ec>nav>ul>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: .5px solid black;
+   
+}
+
+.former-ec {
+    padding: 10px;
+}
+
+
+.former-ee-text h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.former-ee-text {
+    border-bottom: .5px solid black;
+}
+
+.executive-committee {
+    font-size: 23px;
+    padding: 10px;
+    border-bottom: .01px solid black;
+}
+
+.executive-committee-box {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.executive-committee-part {
+    width: 30%;
+}
+
+.ec-img img {
+    max-width: 100%;
+}
+
+.ec-img {
+    margin-bottom: 10px;
+}
+
+.ec-text h2 {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.ec-text p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
