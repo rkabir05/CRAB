@@ -664,3 +664,79 @@ h2 {}
     margin-bottom: 20px;
     font-size: 14px;
 }
+
+.member-box-main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.member {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.member h1 {
+    font-size: 46px;
+}
+
+.member-two-box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.member-box-one h2 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.member-box-search h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.member-img img {
+    width: 40px;
+}
+
+.member-table {
+    padding: 10px;
+}
+
+.member-table>td {
+    margin-top: 10px;
+}
+
+.member-table td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.member-table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.member-table th {
+    padding-right: 142px;
+    padding-left: 10px;
+}
+
+.member-table table {
+    border-collapse: collapse;
+}
+
+
+.member-table table tr:nth-child(odd) {
+    background: darkgray;
+}
+
+.member-table td {
+    padding: 10px;
+}
+
